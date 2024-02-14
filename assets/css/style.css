@@ -16,6 +16,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     height: 120px;
     width: 100%;
 
@@ -40,6 +41,17 @@ nav a {
 
 h2 {
     background-color: goldenrod;
+    color: navy;
+}
+
+h3 {
+    background-color: navy;
+    color: goldenrod;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .main-header {
@@ -57,6 +69,16 @@ h2 {
     background-color: goldenrod;
     color: navy;
     text-align: center;
-    
+}
 
+.flex-container {
+    margin: 0px;
+    padding: 15px;
+    background-color: navy;
+    text-align: center;
+}
+
+.flex-item {
+    background-color: navy;
+    color: goldenrod;
 }
