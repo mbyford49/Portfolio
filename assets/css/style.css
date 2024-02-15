@@ -24,17 +24,20 @@ header {
 
 h1 {
     margin-right: 900px;
+    background-color: navy;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: navy;
     padding: 20px;
 }
 
 nav a {
     padding: 10px;
+    background-color: navy;
     color: goldenrod;
     margin-right: 20px;
 }
@@ -45,9 +48,11 @@ h2 {
 }
 
 h3 {
+    padding: 0px;
     background-color: navy;
     color: goldenrod;
 }
+
 
 main {
     margin-top: 50px;
@@ -71,10 +76,11 @@ main {
     text-align: center;
 }
 
-.flex-container {
+.flex-container, p {
     margin: 0px;
     padding: 15px;
     background-color: navy;
+    color: goldenrod;
     text-align: center;
 }
 
